@@ -173,6 +173,7 @@ h6 {
   justify-content: flex-start;
   align-items: flex-end;
   width: 52vw;
+  min-width: 52vw;
   height: 176px;
   margin-right: 80px;
   display: flex;
@@ -347,7 +348,8 @@ h6 {
 .p-feedbacks {
   color: var(--black);
   flex: none;
-  width: 64%;
+  width: 64vw;
+  min-width: 64vw;
   margin-bottom: 0;
   font-family: Manrope Variablefont Wght, sans-serif;
   font-size: 26px;
@@ -571,7 +573,8 @@ h6 {
   }
 
   .hero-txt {
-    width: 38vw;
+    width: 36vw;
+    min-width: 38vw;
     margin-right: -40px;
   }
 
@@ -589,7 +592,8 @@ h6 {
   }
 
   .p-feedbacks {
-    width: 56vw;
+    width: 40vw;
+    min-width: 40vw;
   }
 
   .footer {
@@ -600,7 +604,7 @@ h6 {
 @media screen and (max-width: 991px) {
   .nav {
     margin-bottom: 26px;
-    padding-top: 0;
+    padding-top: 26px;
     padding-left: 32px;
     padding-right: 8px;
   }
@@ -620,10 +624,6 @@ h6 {
   .p {
     font-size: 22px;
     line-height: 32px;
-  }
-
-  .body {
-    padding-top: 26px;
   }
 
   .nav-link.lowercase {
@@ -781,6 +781,7 @@ h6 {
 
   .p-feedbacks {
     width: auto;
+    min-width: auto;
     font-size: 22px;
     line-height: 32px;
   }
