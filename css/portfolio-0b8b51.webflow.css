@@ -3,8 +3,8 @@
   --grey: #e4e4e4;
   --white: #f3f3f3;
   --dark-grey: #a6a6a6;
-  --orange: #ee8344;
   --purple: #bc55cd;
+  --orange: #ee8344;
 }
 
 .w-layout-vflex {
@@ -165,20 +165,7 @@ h6 {
   font-weight: 500;
 }
 
-.hero-highlight-1 {
-  background-color: var(--orange);
-  opacity: 1;
-  color: var(--white);
-  padding-left: 6px;
-  padding-right: 6px;
-  text-decoration: none;
-}
-
-.hero-highlight-2 {
-  background-color: var(--purple);
-  color: var(--white);
-  padding-left: 6px;
-  padding-right: 6px;
+.hero-highlight-1, .hero-highlight-2 {
   text-decoration: none;
 }
 
