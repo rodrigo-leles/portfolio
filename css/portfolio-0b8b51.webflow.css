@@ -13,6 +13,14 @@
   display: flex;
 }
 
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
 h4 {
   color: var(--black);
   margin-top: 10px;
@@ -63,10 +71,13 @@ h6 {
 
 .h1 {
   color: var(--black);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 40px;
   font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
-  line-height: 180px;
+  line-height: 190px;
 }
 
 .p {
@@ -200,10 +211,6 @@ h6 {
   margin-right: auto;
 }
 
-.arrow-scroll-down {
-  transform: rotate(90deg);
-}
-
 .projects {
   cursor: none;
   position: relative;
@@ -215,12 +222,17 @@ h6 {
   background-image: linear-gradient(225deg, var(--purple), var(--orange));
   opacity: .8;
   cursor: none;
+  border-radius: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
   position: absolute;
   inset: 0%;
 }
 
 .projects-video {
   z-index: 1;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .stroked-white {
@@ -232,17 +244,21 @@ h6 {
   line-height: 200px;
 }
 
+.stroked-white.h2 {
+  display: block;
+}
+
 .projects-txt {
   z-index: 4;
   pointer-events: none;
-  padding-left: 80px;
-  padding-right: 80px;
+  justify-content: center;
   display: flex;
   position: absolute;
   inset: 0%;
 }
 
 .video {
+  border-radius: 32px;
   width: 100%;
   height: 100%;
 }
@@ -549,6 +565,33 @@ h6 {
   inset: 0%;
 }
 
+.bt-play-mobile {
+  display: none;
+}
+
+.cursor-mobile {
+  z-index: 999;
+  opacity: 0;
+  justify-content: center;
+  align-items: baseline;
+  width: 187px;
+  height: 187px;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.cursor-bt-white-play {
+  align-self: center;
+  position: static;
+  inset: 0%;
+}
+
+.cursor-bg-white-txt {
+  position: absolute;
+  inset: 0%;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     min-width: 1280px;
@@ -599,6 +642,10 @@ h6 {
   .footer {
     margin-top: 120px;
   }
+
+  .p-footer {
+    width: 42vw;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -616,6 +663,7 @@ h6 {
   }
 
   .h1 {
+    padding-bottom: 16px;
     font-size: 86px;
     line-height: 86px;
     display: block;
@@ -717,18 +765,40 @@ h6 {
     order: 1;
   }
 
+  .projects-overlay {
+    border-radius: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .projects-video {
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+  }
+
   .stroked-white {
     font-size: 86px;
     line-height: 86px;
+    display: block;
+  }
+
+  .stroked-white.h2 {
+    display: none;
   }
 
   .projects-txt {
+    justify-content: center;
+    align-items: baseline;
     padding-left: 32px;
     padding-right: 32px;
   }
 
   .video {
-    height: 544px;
+    border-radius: 16px;
+    height: 512px;
   }
 
   .clients {
@@ -829,6 +899,19 @@ h6 {
     align-items: center;
     margin-bottom: 16px;
     display: flex;
+  }
+
+  .bt-play-mobile {
+    width: 128px;
+    height: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+  }
+
+  .cursor-mobile {
+    opacity: 1;
+    margin: auto;
   }
 }
 
