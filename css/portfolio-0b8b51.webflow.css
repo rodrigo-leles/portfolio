@@ -17,7 +17,7 @@ h4 {
   color: var(--black);
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 200px;
@@ -26,7 +26,7 @@ h4 {
 h5 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 200px;
@@ -63,7 +63,7 @@ h6 {
 
 .h1 {
   color: var(--black);
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 180px;
@@ -226,7 +226,7 @@ h6 {
 .stroked-white {
   margin-top: auto;
   margin-bottom: auto;
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 200px;
@@ -312,7 +312,7 @@ h6 {
   color: var(--black);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 200px;
@@ -339,7 +339,7 @@ h6 {
 }
 
 .h4-stroked {
-  font-family: Thunder, Impact, sans-serif;
+  font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
   font-weight: 500;
   line-height: 200px;
@@ -573,8 +573,8 @@ h6 {
   }
 
   .hero-txt {
-    width: 36vw;
-    min-width: 38vw;
+    width: 660px;
+    min-width: 33vw;
     margin-right: -40px;
   }
 
@@ -630,7 +630,7 @@ h6 {
     color: var(--white);
     text-transform: lowercase;
     padding-top: 40px;
-    font-family: Thunder, Impact, sans-serif;
+    font-family: Thunder, Trebuchet MS, sans-serif;
     font-size: 86px;
     font-weight: 500;
   }
@@ -827,7 +827,7 @@ h6 {
     grid-row-gap: 20px;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     display: flex;
   }
 }
