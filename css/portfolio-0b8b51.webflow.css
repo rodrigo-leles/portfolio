@@ -479,6 +479,7 @@ h6 {
 
 .slider-left-arrow {
   float: left;
+  cursor: pointer;
   width: 32px;
   height: 32px;
   position: relative;
@@ -487,6 +488,7 @@ h6 {
 
 .slider-right-arrow {
   float: left;
+  cursor: pointer;
   width: 32px;
   height: 32px;
   margin-left: 8px;
@@ -508,6 +510,7 @@ h6 {
 .link {
   color: var(--orange);
   letter-spacing: .5px;
+  cursor: pointer;
   font-family: Manrope Variablefont Wght, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -522,6 +525,7 @@ h6 {
 }
 
 .link-up {
+  cursor: pointer;
   width: 32px;
   height: 32px;
 }
