@@ -52,6 +52,7 @@ h6 {
 
 .nav {
   background-color: #0000;
+  max-height: 100px;
   margin-bottom: 80px;
   margin-left: 0;
   margin-right: 0;
@@ -110,6 +111,10 @@ h6 {
 .nav-link.lowercase {
   color: var(--black);
   text-align: center;
+}
+
+.nav-link.lowercase:hover {
+  border-bottom: 1px solid var(--black);
 }
 
 .img-logo {
