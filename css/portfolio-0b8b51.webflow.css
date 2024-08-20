@@ -218,6 +218,8 @@ h6 {
 
 .projects {
   cursor: none;
+  margin-left: 80px;
+  margin-right: 80px;
   position: relative;
   overflow: hidden;
 }
@@ -228,16 +230,17 @@ h6 {
   opacity: .8;
   cursor: none;
   border-radius: 32px;
-  margin-left: 80px;
-  margin-right: 80px;
   position: absolute;
   inset: 0%;
 }
 
 .projects-video {
   z-index: 1;
-  margin-left: 80px;
-  margin-right: 80px;
+  background-image: url('../images/web-reel-cut.gif');
+  background-position: 0 0;
+  background-size: cover;
+  border-radius: 32px;
+  min-height: 640px;
 }
 
 .stroked-white {
@@ -601,6 +604,10 @@ h6 {
   inset: 0%;
 }
 
+.image-2 {
+  border-radius: 32px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     min-width: 1280px;
@@ -628,6 +635,10 @@ h6 {
     width: 660px;
     min-width: 33vw;
     margin-right: -40px;
+  }
+
+  .projects-video {
+    min-height: 768px;
   }
 
   .stroked-white {
@@ -774,17 +785,22 @@ h6 {
     order: 1;
   }
 
-  .projects-overlay {
-    border-radius: 16px;
+  .projects {
     margin-left: 16px;
     margin-right: 16px;
   }
 
+  .projects-overlay {
+    border-radius: 16px;
+  }
+
   .projects-video {
+    border-radius: 16px;
     justify-content: center;
     align-items: baseline;
-    margin-left: 16px;
-    margin-right: 16px;
+    min-height: 448px;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
   }
 
