@@ -236,11 +236,11 @@ h6 {
 
 .projects-video {
   z-index: 1;
+  aspect-ratio: 16 / 9;
   background-image: url('../images/web-reel-cut.gif');
   background-position: 0 0;
   background-size: cover;
   border-radius: 32px;
-  min-height: 640px;
 }
 
 .stroked-white {
@@ -637,17 +637,26 @@ h6 {
     margin-right: -40px;
   }
 
-  .projects-video {
-    min-height: 768px;
-  }
-
   .stroked-white {
     font-size: 260px;
     line-height: 260px;
   }
 
+  .about-infos {
+    max-width: 36vw;
+  }
+
+  .about-picture {
+    flex: 0 auto;
+    margin-left: auto;
+  }
+
   .h3 {
     font-size: 260px;
+  }
+
+  .image {
+    max-width: 768px;
   }
 
   .feedbacks-title {
@@ -795,12 +804,19 @@ h6 {
   }
 
   .projects-video {
+    aspect-ratio: 0;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     border-radius: 16px;
     justify-content: center;
     align-items: baseline;
     min-height: 448px;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 0;
+    padding-right: 0;
     display: flex;
   }
 
