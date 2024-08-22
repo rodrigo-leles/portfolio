@@ -793,7 +793,10 @@ h6 {
   }
 
   .scroll-pointer {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
     order: 1;
+    padding-top: 48px;
   }
 
   .projects {
