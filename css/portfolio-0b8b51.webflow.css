@@ -610,6 +610,10 @@ h6 {
   border-radius: 32px;
 }
 
+.img-brazil-flag-copy {
+  width: 32px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     min-width: 1280px;
@@ -958,6 +962,10 @@ h6 {
   .cursor-mobile {
     opacity: 1;
     margin: auto;
+  }
+
+  .img-brazil-flag-copy {
+    width: 96px;
   }
 }
 
