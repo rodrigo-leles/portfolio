@@ -362,6 +362,10 @@ h6 {
   padding-right: 80px;
 }
 
+.feedbacks-testimonials {
+  overflow: hidden;
+}
+
 .h4-stroked {
   font-family: Thunder, Trebuchet MS, sans-serif;
   font-size: 200px;
