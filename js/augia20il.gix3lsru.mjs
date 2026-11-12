@@ -1,6 +1,0 @@
-import{t as e}from"./rolldown-runtime.dh6celcd.mjs";function t(e,t){return{customHTMLHeadEnd:`<style>
-    .framer-v-bm0v7c {
-        z-index:6;
-    }
-</style>`,description:`Brazilian designer specializing in AI-powered features, design systems, and data-driven experimentation. Former design lead at Brazil's first unicorn and the world's largest brewer.`,favicon:`../images/hdnsx6xbjst1fkxb5iv1vrj8.png`,robots:`max-image-preview:large`,socialImage:`../images/6kctkea2nbffqvto57kzsaegs.png`,title:`Rodrigo Leles • Senior Product Designer`}}var n=e((()=>{}));function r(e,n){return{breakpoints:[{hash:`72rtr7`,mediaQuery:`(min-width: 1200px)`},{hash:`1sei8g8`,mediaQuery:`(min-width: 810px) and (max-width: 1199.98px)`},{hash:`5hyzhk`,mediaQuery:`(max-width: 809.98px)`}],description:t(e,n).description,elements:{Cy3T_gUZG:`footer`,dlN6OR6Cs:`work`,hnLF4PwAW:`examples`,ISMIdPbEE:`about`,qrD5sjNBl:`top`},robots:`max-image-preview:large`,serializationId:`framer-sALjU`,title:t(e,n).title||`Home`,viewport:`width=device-width`}}var i,a,o=e((()=>{n(),i=1,a={exports:{default:{type:`function`,annotations:{framerContractVersion:`1`}},metadataVersion:{type:`variable`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}}));export{i,o as n,r,a as t};
-//# sourceMappingURL=augiA20Il.gix3LSRu.mjs.map
